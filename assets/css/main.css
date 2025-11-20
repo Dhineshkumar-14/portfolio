@@ -965,6 +965,9 @@ section,
   font-size: 14px;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
@@ -1230,6 +1233,58 @@ section,
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
+
+
+
+/* Add left/right margin to the whole row */
+  .portfolio-row {
+   width: 100%;
+   margin: 0 auto;
+  }
+
+  .project-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid #e8e8e8;
+  }
+
+
+  .project-image {
+    height: 210px; /* reduced height for compact UI */
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+
+
+  .project-body {
+    padding: 14px 16px; /* reduced padding */
+    text-align: center;
+  }
+
+  .project-title {
+    font-size: 16px; /* reduced */
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  .project-subtitle {
+    font-size: 13px; /* reduced */
+    color: #666;
+    margin-bottom: 10px; /* reduced */
+  }
+
+  .project-links a {
+    font-size: 18px; /* smaller icons */
+    margin: 0 6px;  /* reduce spacing */
+    color: #333;
+    transition: 0.2s ease;
+  }
+
+
 
 /*--------------------------------------------------------------
 # Service Details Section
